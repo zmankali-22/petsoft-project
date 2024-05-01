@@ -19,7 +19,6 @@ export default async function Layout({
   }
 
   const data: Pet[] = await response.json();
-  console.log(data);
   return (
     <>
       <BackgroundPattern />
