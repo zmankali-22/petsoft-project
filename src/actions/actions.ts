@@ -46,7 +46,7 @@ export async function editPet(petId, formData) {
     });
   } catch (err) {
     return {
-      message: "Could not edit pet",
+     message: "Could not edit Pet"
     };
   }
 }
